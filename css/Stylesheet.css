@@ -24,35 +24,29 @@ li {
     margin-top: -5px;
     filter: brightness(50%);
 }
-
 .cont {
     position: relative;
 }
-
 #right-side {
     float: right;
 }
-
 #title {
     font-size: x-large;
+    z-index: 20;
 }
-
 .bar {
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
-
 }
-
 ul {
     padding: 0;
     margin: 0;
 }
-
 #text-upper {
     position: absolute;
     top: 4%;
-    left: 35%;
+    left: 20%;
     font-size: xx-large;
     font-weight: bold;
     color: white;
@@ -61,4 +55,23 @@ ul {
 li a:hover{
     color: blue;
     background-color: bisque;
+}
+#wave {
+    position: absolute;
+    top:72.9%;
+    height: 64px;
+    width: 100%;
+    z-index: 5;
+}
+h2{
+    margin-bottom: 20px;
+    margin-left: 20%;
+    font-size: x-large;
+
+}
+p{
+    width: 60%;
+    margin-left: 20%;
+    font-weight: bold;
+    font-style: italic;
 }
