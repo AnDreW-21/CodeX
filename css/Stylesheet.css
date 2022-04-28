@@ -58,7 +58,7 @@ li a:hover{
 }
 #wave {
     position: absolute;
-    top:72.9%;
+    margin-top:-65px;
     height: 64px;
     width: 100%;
     z-index: 5;
@@ -74,4 +74,125 @@ p{
     margin-left: 20%;
     font-weight: bold;
     font-style: italic;
+}
+#first-image{
+    width: 27%;
+    height: 40%;
+    float: left;
+    margin-left: 20%;
+    position: relative;
+}
+#second-image{
+    width: 27%;
+    height: 40%;
+    float: right;
+    margin-right: 25%;
+
+}
+#third-image{
+    width: 27%;
+    height: 50%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 1%;
+
+}
+#fourth-image{
+    width: 27%;
+    height: 40%;
+    float: right;
+    margin-right: 25%;
+    margin-top: 1%;
+}
+h4{
+    width: 27%;
+    position: absolute;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    padding-left: 10px;
+
+}
+#photo-1{
+    margin-top: 0;
+    left: 20%;
+}
+#photo-2{
+    left: 48%;
+    margin-top: 0;
+}
+#photo-3{
+    margin-top: 15%;
+    left: 20%;
+}
+#photo-4{
+    left: 48%;
+    margin-top: 23%;
+}
+#after-photos{
+  color: black;
+    font-family: "Traditional Arabic", serif;
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 68%;
+    position: static;
+}
+.end-of-page{
+    background-color: #1A2227;
+    float: bottom;
+    margin-top: 6%;
+    height: 320px;
+    overflow: hidden;
+    box-sizing: content-box;
+
+}
+#contact{
+    margin-top: 5%;
+    text-decoration: none;
+    margin-left: 4%
+}
+.box{
+    border-style: solid;
+    border-color: white;
+    margin-top: 50px;
+    padding-left:3%;
+    margin-left: 6%;
+
+}
+#first-box{
+    width: 45%;
+    margin-top: 80px;
+    padding-top: 0;
+    height: 50px;
+    padding-bottom: 0;
+    padding-left: 1%;
+}
+#email{
+    padding: 0;
+    text-decoration: none;
+    margin-top: 2px;
+    margin-right: 17px;
+    font-size: x-large;
+
+
+}
+#second-box{
+    width: 46%;
+    height: 100px;
+    padding: 0;
+}
+#message{
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 2px;
+    margin-right: 19px;
+    font-size: x-large;
+}
+h6{
+    color:white;
+    margin-top: 0.5%;
+    text-align: center;
+    font-size: medium;
+
 }
